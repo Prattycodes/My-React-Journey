@@ -1,0 +1,50 @@
+#what is React JS?
+Facebook got a problem that, it was not able to send notifications and updates on likes and comments in real time to the users. For that they need to refresh the browser page. Why because they were using PHP. For this problem, facebook engineer invented one library which was able to perform those tasks.
+Browser has a nature to refresh DOM Tree as soon as there is somthing change one the page.
+It works by making one virtual DOM Tree which is exact replica of the real DOM Tree. But it only make changes that are changed doesnot refresh the whole page.
+Thats the reason why react is so famous for big applications.
+
+#Why React JS ?
+React has very very very less page reloads
+It has extreme use of reusable components
+It is very efficient 
+
+#How we will use React JS?
+Create components, and make data if you need it, link the data and change the data whenever you want, react will react jab bhi data change hoga 
+
+#When we will use React JS?
+Jab aapko ek thoda bade level pe app create karna ho, jismein khoob saari cheejein ho rahi hai, and khoob saara reusable component struture hai 
+
+I React we dont need to write the whole code, react has given a tool named as create-react-app
+
+#Steps 
+1. Vscode
+2. Chrome
+3. Default code lana 
+4. npm run dev 
+5. output dikhana 
+6. code ke folder structure ko samjhna 
+Node modules vit ko require hota hai 
+public mai static images and videos hote hai 
+Assets mai bhi same 
+baaki sab impt hai with jsx extention 
+RFCE is component 
+
+component ek function hai jo ki return karega jsx
+jsx html ki tarah dikne vala syntax hai but uske paas superpowers hai jo html ke paas nahi hai 
+
+app ka code , jo website pe dikhta hai 
+app root se connected hota hai 
+
+cant return 2 things, only one 
+to return it set into a div tag or blank tag 
+it is called as react fragment  
+
+component, import and link learned
+
+React will react according to state 
+
+Sending and receiving data to component
+
+Make own data in a component using useState
+Change that data 
